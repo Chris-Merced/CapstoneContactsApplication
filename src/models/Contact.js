@@ -1,6 +1,4 @@
-
 //Contact class - mirrors the Java implementation with validation
-
 
 export class Contact {
     constructor(ID, firstName, lastName, phone, address) {

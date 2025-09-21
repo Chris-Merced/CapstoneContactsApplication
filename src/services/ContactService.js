@@ -1,6 +1,5 @@
 import { Contact } from '../models/Contact.js';
 
-
 //ContactService class - mirrors the Java implementation for managing contacts
 
 export class ContactService {
