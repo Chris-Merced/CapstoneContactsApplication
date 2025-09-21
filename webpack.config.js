@@ -10,10 +10,10 @@ module.exports = (env, argv) => {
     entry: './src/index.js',
     
     output: {
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'docs'),
       filename: isProduction ? 'js/[name].[contenthash].js' : 'js/[name].bundle.js',
       clean: true,
-      publicPath: '/'
+      publicPath: '/CapstoneContactsApplication/'
     },
 
     module: {
